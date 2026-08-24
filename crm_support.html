@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="CRM 移动端技术支持、常见问题与联系方式">
+  <title>CRM 技术支持</title>
+  <style>
+    :root {
+      --brand: #6754e9;
+      --brand-soft: #f1efff;
+      --text: #172033;
+      --muted: #667085;
+      --border: #e4e7ec;
+      --background: #f7f8fb;
+      --surface: #ffffff;
+      --radius: 16px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--text);
+      background: var(--background);
+      font-family:
+        -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+        "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      font-size: 16px;
+      line-height: 1.75;
+    }
+
+    a {
+      color: var(--brand);
+      overflow-wrap: anywhere;
+    }
+
+    .hero {
+      padding: 56px 20px 42px;
+      color: #ffffff;
+      background: linear-gradient(135deg, #6754e9, #8d63ef 58%, #4c84f5);
+    }
+
+    .hero-inner,
+    main,
+    footer {
+      width: min(860px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      opacity: 0.85;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(32px, 7vw, 48px);
+      line-height: 1.2;
+    }
+
+    .hero-description {
+      max-width: 680px;
+      margin: 16px 0 0;
+      font-size: 17px;
+      opacity: 0.92;
+    }
+
+    main {
+      padding: 28px 0 48px;
+    }
+
+    .card {
+      margin-bottom: 18px;
+      padding: 24px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: 0 8px 28px rgba(23, 32, 51, 0.05);
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 22px;
+      line-height: 1.4;
+    }
+
+    h3 {
+      margin: 24px 0 8px;
+      font-size: 17px;
+    }
+
+    p {
+      margin: 8px 0;
+    }
+
+    ul {
+      margin: 10px 0;
+      padding-left: 22px;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .contact-item {
+      padding: 16px;
+      background: var(--brand-soft);
+      border-radius: 12px;
+    }
+
+    .contact-label {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .notice {
+      padding: 14px 16px;
+      background: #fff8e7;
+      border-left: 4px solid #f5b942;
+      border-radius: 8px;
+    }
+
+    footer {
+      padding: 0 0 40px;
+      color: var(--muted);
+      font-size: 14px;
+      text-align: center;
+    }
+
+    @media (max-width: 640px) {
+      .hero {
+        padding-top: 40px;
+      }
+
+      .card {
+        padding: 20px;
+      }
+
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">CRM MOBILE</p>
+      <h1>技术支持</h1>
+      <p class="hero-description">
+        感谢您使用 CRM 移动端。您可以在本页面查看常见问题、
+        获取使用帮助，或联系我们的技术支持团队。
+      </p>
+    </div>
+  </header>
+
+  <main>
+    <section class="card" aria-labelledby="about-title">
+      <h2 id="about-title">关于 CRM</h2>
+      <p>
+        CRM 是面向企业销售团队的移动客户关系管理工具，帮助销售人员、
+        销售经理和管理人员在移动场景中查看客户、线索、商机、审批、
+        沟通记录、业务笔记和团队数据。
+      </p>
+      <p>
+        CRM 账号由所属企业或组织的系统管理员统一创建和分配，
+        本应用不提供面向公众的自助注册服务。
+      </p>
+    </section>
+
+    <section class="card" aria-labelledby="contact-title">
+      <h2 id="contact-title">联系我们</h2>
+      <p>
+        如遇到登录、数据同步、通知、权限或其他使用问题，请通过以下方式联系我们。
+      </p>
+
+      <div class="contact-grid">
+        <div class="contact-item">
+          <span class="contact-label">客服邮箱</span>
+          <a href="mailto:mouavalerius95@outlook.com">mouavalerius95@outlook.com</a>
+        </div>
+
+        <div class="contact-item">
+          <span class="contact-label">服务时间</span>
+          <span>周一至周五 09:00–18:00，北京时间</span>
+        </div>
+      </div>
+
+      <p>
+        联系我们时，请说明 App 版本、iPhone/iPad 型号、iOS 版本、
+        问题发生时间及复现步骤。请勿通过普通电子邮件发送密码、
+        验证码或完整客户资料。
+      </p>
+    </section>
+
+    <section class="card" aria-labelledby="faq-title">
+      <h2 id="faq-title">常见问题</h2>
+
+      <h3>1. 如何获取账号？</h3>
+      <p>
+        CRM 账号由您所在企业或组织的系统管理员创建。
+        如果您尚未获得账号，请联系企业内部 CRM 管理员。
+      </p>
+
+      <h3>2. 忘记密码怎么办？</h3>
+      <p>
+        移动端暂不提供自助找回密码功能。请联系企业系统管理员重置密码，
+        或按企业内部流程在 CRM 网页端处理。
+      </p>
+
+      <h3>3. 登录后看不到部分功能或数据怎么办？</h3>
+      <p>
+        App 会根据用户角色和数据权限显示功能及业务数据。
+        如果您认为权限有误，请联系企业系统管理员核对账号角色和数据范围。
+      </p>
+
+      <h3>4. 数据没有及时更新怎么办？</h3>
+      <p>
+        请确认设备网络连接正常，然后返回列表重新进入或下拉刷新。
+        若问题持续存在，请记录发生时间并联系技术支持。
+      </p>
+
+      <h3>5. 为什么需要相机、相册或麦克风权限？</h3>
+      <ul>
+        <li>相机：用于拍摄名片、客户现场、白板或笔记图片。</li>
+        <li>相册：用于选择图片并保存为客户或商机相关笔记。</li>
+        <li>麦克风：用于录制语音笔记并提交转写。</li>
+      </ul>
+      <p>
+        您可以在 iOS“设置 → 隐私与安全性”或 App 设置页面中管理相关权限。
+      </p>
+
+      <h3>6. 收不到通知怎么办？</h3>
+      <p>
+        请在 iOS“设置 → 通知 → CRM”中确认已允许通知，
+        并确认 App 内通知设置没有关闭。如仍无法接收，请联系技术支持。
+      </p>
+
+      <h3>7. 如何申请更正或删除个人信息？</h3>
+      <p>
+        您可以先联系所属企业的 CRM 管理员，也可以通过本页公布的客服邮箱提交申请。
+        我们会在核实身份和数据归属后，依据适用法律及企业的数据管理制度处理。
+      </p>
+
+      <h3>8. 支持哪些设备？</h3>
+      <p>
+        当前版本支持运行 iOS 13 或更高版本的兼容 iPhone 和 iPad。
+      </p>
+    </section>
+
+    <section class="card" aria-labelledby="privacy-title">
+      <h2 id="privacy-title">隐私与数据保护</h2>
+      <p>
+        关于个人信息、设备权限、第三方服务和数据保存方式的说明，
+        请阅读我们的
+        <a href="./crm_privacy.html">《CRM 隐私政策》</a>。
+      </p>
+    </section>
+
+    <section class="card" aria-labelledby="company-title">
+      <h2 id="company-title">运营主体</h2>
+      <p><strong>公司名称：</strong>阶跃信息技术服务 (杭州) 有限公司</p>
+      <p><strong>联系邮箱：</strong>mouavalerius95@outlook.com</p>
+    </section>
+
+    <div class="notice">
+      本页面不用于收集密码、验证码、支付信息或其他敏感凭证。
+      请勿将上述信息发送至客服邮箱。
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 阶跃信息技术服务 (杭州) 有限公司。保留所有权利。</p>
+    <p>页面最后更新日期：2026年08月24日</p>
+  </footer>
+</body>
+
+</html>
