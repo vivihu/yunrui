@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="CRM 移动端隐私政策">
+  <title>CRM 隐私政策</title>
+  <style>
+    :root {
+      --brand: #6754e9;
+      --brand-soft: #f1efff;
+      --text: #172033;
+      --muted: #667085;
+      --border: #e4e7ec;
+      --background: #f7f8fb;
+      --surface: #ffffff;
+      --radius: 16px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--text);
+      background: var(--background);
+      font-family:
+        -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+        "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      font-size: 16px;
+      line-height: 1.8;
+    }
+
+    a {
+      color: var(--brand);
+      overflow-wrap: anywhere;
+    }
+
+    .hero {
+      padding: 52px 20px 40px;
+      color: #ffffff;
+      background: linear-gradient(135deg, #6754e9, #8d63ef 58%, #4c84f5);
+    }
+
+    .hero-inner,
+    main,
+    footer {
+      width: min(900px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(32px, 7vw, 46px);
+      line-height: 1.2;
+    }
+
+    .meta {
+      margin-top: 16px;
+      opacity: 0.9;
+    }
+
+    main {
+      padding: 28px 0 48px;
+    }
+
+    .card {
+      margin-bottom: 18px;
+      padding: 26px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: 0 8px 28px rgba(23, 32, 51, 0.05);
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 22px;
+      line-height: 1.45;
+    }
+
+    h3 {
+      margin: 24px 0 8px;
+      font-size: 17px;
+    }
+
+    p {
+      margin: 9px 0;
+    }
+
+    ul,
+    ol {
+      padding-left: 22px;
+    }
+
+    table {
+      width: 100%;
+      margin: 16px 0;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+
+    th,
+    td {
+      padding: 12px;
+      text-align: left;
+      vertical-align: top;
+      border: 1px solid var(--border);
+    }
+
+    th {
+      background: var(--brand-soft);
+    }
+
+    .summary {
+      padding: 16px 18px;
+      background: var(--brand-soft);
+      border-radius: 12px;
+    }
+
+    .warning {
+      padding: 14px 16px;
+      background: #fff8e7;
+      border-left: 4px solid #f5b942;
+      border-radius: 8px;
+    }
+
+    footer {
+      padding: 0 0 40px;
+      color: var(--muted);
+      font-size: 14px;
+      text-align: center;
+    }
+
+    @media (max-width: 680px) {
+      .hero {
+        padding-top: 38px;
+      }
+
+      .card {
+        padding: 20px;
+      }
+
+      .table-wrap {
+        overflow-x: auto;
+      }
+
+      table {
+        min-width: 680px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <h1>CRM 隐私政策</h1>
+      <p class="meta">
+        生效日期：2026年08月24日<br>
+        最近更新日期：2026年08月24日
+      </p>
+    </div>
+  </header>
+
+  <main>
+    <section class="card">
+      <div class="summary">
+        <strong>重要提示：</strong>
+        本政策说明 阶跃信息技术服务 (杭州) 有限公司（以下简称“我们”）
+        如何在 CRM 移动端中处理个人信息和企业业务数据。
+        请您在使用本应用前认真阅读并理解本政策。
+      </div>
+
+      <p>
+        CRM 是面向企业销售团队的客户关系管理工具。
+        用户账号通常由所属企业或组织的管理员创建和分配。
+        用户能够访问的功能及数据范围由其所属企业、账号角色和权限决定。
+      </p>
+
+      <p>
+        如果您不同意本政策，请不要继续使用本应用，并联系所属企业管理员
+        或通过本政策公布的联系方式与我们沟通。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>一、适用范围</h2>
+      <p>本政策适用于 CRM iOS 移动应用及其相关服务。</p>
+      <p>
+        本应用可能展示或处理由您所属企业录入的客户、联系人、
+        销售和履约数据。您的所属企业可能同时作为相关业务数据的管理者。
+        有关企业内部数据权限、保存期限和离职交接规则，请同时咨询所属企业管理员。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>二、我们处理的信息</h2>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>信息类别</th>
+              <th>可能包含的内容</th>
+              <th>主要用途</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>账号和个人资料</td>
+              <td>用户ID、姓名、工作邮箱、电话号码、头像、所属团队、角色和权限</td>
+              <td>登录认证、展示个人资料、权限控制和账号安全</td>
+            </tr>
+            <tr>
+              <td>认证信息</td>
+              <td>登录邮箱、密码和登录凭证</td>
+              <td>
+                验证用户身份。密码用于向认证服务提交登录请求；
+                登录令牌保存在系统安全存储中
+              </td>
+            </tr>
+            <tr>
+              <td>客户与销售业务数据</td>
+              <td>
+                客户、联系人、线索、商机、报价、交易、合同、
+                订单、发票、回款、审批及相关业务记录
+              </td>
+              <td>提供客户关系管理、销售跟进、审批和履约功能</td>
+            </tr>
+            <tr>
+              <td>用户创建或提交的内容</td>
+              <td>
+                文字笔记、照片、录音、附件、评论、邮件及业务沟通内容
+              </td>
+              <td>提供笔记、转写、邮件、沟通和协作功能</td>
+            </tr>
+            <tr>
+              <td>设备和推送信息</td>
+              <td>
+                设备平台、推送Registration ID、推送Token、
+                通知送达和点击所需的信息
+              </td>
+              <td>发送审批、待办、业务提醒并处理通知跳转</td>
+            </tr>
+            <tr>
+              <td>使用情况信息</td>
+              <td>
+                App平台、App版本、访问的功能模块、页面类型和功能操作记录
+              </td>
+              <td>分析功能使用情况、排查问题和改进产品</td>
+            </tr>
+            <tr>
+              <td>诊断信息</td>
+              <td>错误日志、崩溃信息、发生时间和必要的设备环境信息</td>
+              <td>保障服务稳定性、定位故障和提升安全性</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p>
+        我们不会将上述信息用于与 CRM 服务无关的第三方广告，
+        也不会出售用户个人信息。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>三、设备权限</h2>
+
+      <h3>1. 相机</h3>
+      <p>
+        用于拍摄名片、客户现场、白板或其他业务笔记图片。
+        只有在您主动使用拍照功能时才会请求相机权限。
+      </p>
+
+      <h3>2. 照片</h3>
+      <p>
+        用于从系统相册选择图片并保存为客户、商机或其他业务笔记。
+        我们不会在未经您操作的情况下读取整个相册内容。
+      </p>
+
+      <h3>3. 麦克风</h3>
+      <p>
+        用于录制语音笔记，并在您确认后上传至服务器进行保存或语音转写。
+      </p>
+
+      <h3>4. 通知</h3>
+      <p>
+        用于接收审批待办、业务提醒、@提及、邮件和系统通知。
+        您可以在 iOS 系统设置中关闭通知。
+      </p>
+
+      <h3>5. 定位</h3>
+      <p>
+        当前 CRM 核心业务不主动请求 iOS 系统定位权限。
+        第三方推送服务可能依据其SDK版本、设备配置和网络环境处理
+        IP地址推断信息或其合规说明中列明的信息，具体见本政策“第三方服务”章节。
+      </p>
+
+      <p>
+        您可以随时在 iOS“设置 → 隐私与安全性”或 App 设置页面中调整权限。
+        拒绝某项权限只会影响依赖该权限的对应功能。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>四、我们如何使用信息</h2>
+      <p>我们可能基于以下目的处理信息：</p>
+      <ol>
+        <li>验证用户身份并维持登录状态；</li>
+        <li>按照账号角色和数据权限提供 CRM 功能；</li>
+        <li>同步客户、商机、审批、沟通、笔记和履约数据；</li>
+        <li>发送审批、待办和其他业务通知；</li>
+        <li>保存用户主动提交的文字、图片、录音和附件；</li>
+        <li>分析页面和功能使用情况，改进产品体验；</li>
+        <li>诊断错误、保障系统安全并防止未经授权的访问；</li>
+        <li>履行适用法律法规要求。</li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h2>五、本地存储与离线数据</h2>
+      <p>
+        为改善弱网或离线场景下的使用体验，本应用可能在设备上保存
+        必要的只读业务缓存、当前用户信息、设置项和未提交草稿。
+      </p>
+      <ul>
+        <li>登录令牌保存在 iOS Keychain 等系统安全存储中；</li>
+        <li>离线业务缓存和草稿使用加密存储；</li>
+        <li>用户退出登录时，应用会清理登录凭证和相关本地缓存；</li>
+        <li>录音或图片上传成功后，可根据功能流程删除相应本地临时文件；</li>
+        <li>用户也可以通过 App 提供的缓存清理功能删除可清理数据。</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>六、信息共享、委托处理与第三方服务</h2>
+      <p>
+        我们仅在提供功能所必需的范围内，与服务提供商共享或委托处理信息。
+        服务提供商只能按照约定目的处理相关信息。
+      </p>
+
+      <h3>极光推送（JPush）</h3>
+      <p>
+        <strong>服务提供方：</strong>深圳市和讯华谷信息技术有限公司
+      </p>
+      <p>
+        <strong>使用目的：</strong>为设备注册推送服务，发送审批、待办和业务通知，
+        并处理通知送达及点击。
+      </p>
+      <p>
+        <strong>可能处理的信息：</strong>
+        推送注册标识、设备标识符、IP地址、网络类型、设备与应用基本信息、
+        推送送达及点击记录，以及在实际SDK配置下提供推送服务所必需的信息。
+      </p>
+      <p>
+        <strong>第三方隐私政策：</strong>
+        <a href="https://www.jiguang.cn/license/privacy" target="_blank" rel="noopener noreferrer">
+          极光隐私政策
+        </a>
+      </p>
+
+      <h3>Apple 推送通知服务（APNs）</h3>
+      <p>
+        iOS 设备上的远程通知会使用 Apple 提供的推送通知服务。
+        Apple 可能根据其隐私政策处理推送所需的设备令牌和连接信息。
+      </p>
+
+      <h3>GitHub Pages</h3>
+      <p>
+        本隐私政策与技术支持网页使用 GitHub Pages 托管。
+        当您访问这些公开网页时，GitHub 可能根据其隐私声明处理
+        IP地址、浏览器信息和访问日志。本项仅涉及网页托管，不会让 GitHub
+        直接访问 CRM App 内的客户或销售业务数据。
+      </p>
+
+      <p>
+        除上述情形外，我们不会在未经授权的情况下向无关第三方提供个人信息，
+        但法律法规、司法机关或行政机关依法要求的情况除外。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>七、数据保存期限</h2>
+      <p>
+        我们仅在实现本政策所述目的所需的期限内保存相关信息，
+        或按照适用法律法规、合同约定和企业内部数据管理制度保存。
+      </p>
+      <p>
+        具体保存期限如下，请在发布前由公司确认：
+      </p>
+      <ul>
+        <li>账号和个人资料：[填写保存规则]</li>
+        <li>客户及销售业务数据：[填写保存规则]</li>
+        <li>操作与安全日志：[填写期限，例如6个月]</li>
+        <li>本地离线缓存：退出登录、清理缓存或卸载 App 时按实际机制清理</li>
+        <li>用户提交的删除申请：在核实身份并确认适用范围后处理</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>八、数据存储地点与跨境处理</h2>
+      <p>
+        CRM 业务数据主要存储在：中国大陆。
+      </p>
+      <p>
+        如果因提供服务需要进行跨境传输，我们将依据适用法律履行相应义务，
+        并采取必要措施保护相关信息。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>九、数据安全</h2>
+      <p>我们采用合理的技术和管理措施保护信息，包括：</p>
+      <ul>
+        <li>通过 HTTPS 等安全通信方式传输生产环境数据；</li>
+        <li>使用系统安全存储保存登录凭证；</li>
+        <li>对离线缓存和草稿进行加密保护；</li>
+        <li>根据用户角色和权限限制数据访问；</li>
+        <li>记录必要的安全和故障信息；</li>
+        <li>在退出登录时清理本地凭证和相关缓存。</li>
+      </ul>
+      <p>
+        互联网传输和电子存储不存在绝对安全。
+        如发生可能影响用户权益的安全事件，我们将依据适用法律采取处置措施。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>十、您的权利</h2>
+      <p>
+        在适用法律规定的范围内，您可以申请访问、更正、复制、限制处理
+        或删除与您相关的个人信息。
+      </p>
+      <p>
+        由于账号和部分业务数据由所属企业管理，您可以优先联系企业 CRM 管理员。
+        您也可以通过以下方式联系我们：
+      </p>
+      <ul>
+        <li>隐私联系邮箱：<a href="mailto:mouavalerius95@outlook.com">mouavalerius95@outlook.com</a></li>
+      </ul>
+      <p>
+        为保障账号和业务数据安全，我们可能要求您验证身份。
+        某些业务记录可能因法律法规、审计、合同履行或企业合法管理要求而需要继续保存。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>十一、未成年人保护</h2>
+      <p>
+        CRM 面向企业员工和授权业务人员，不以未成年人为目标用户。
+        如果我们发现未经适当授权处理了未成年人的个人信息，
+        将依据适用法律和实际情况采取删除或其他必要措施。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>十二、政策更新</h2>
+      <p>
+        我们可能根据功能变化、第三方服务调整或法律法规要求更新本政策。
+        更新后的政策会在本页面公布，并标明新的更新日期。
+      </p>
+      <p>
+        如果更新对个人信息处理方式产生重大影响，
+        我们将通过 App 提示、通知或其他适当方式告知用户。
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>十三、联系我们</h2>
+      <p><strong>运营主体：</strong>阶跃信息技术服务 (杭州) 有限公司</p>
+      <p>
+        <strong>隐私联系邮箱：</strong>
+        <a href="mailto:mouavalerius95@outlook.com">mouavalerius95@outlook.com</a>
+      </p>
+      <p>
+        如需普通使用帮助，请访问
+        <a href="./crm_support.html">CRM 技术支持页面</a>。
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 阶跃信息技术服务 (杭州) 有限公司。保留所有权利。</p>
+  </footer>
+</body>
+
+</html>
